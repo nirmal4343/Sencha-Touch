@@ -36,7 +36,12 @@ Ext.Loader.addClassPathMappings({
 });
 
 Ext.ClassManager.addNameAlternateMappings({
+  "Dinmu.controller.Main": [],
+  "Dinmu.model.Setting": [],
+  "Dinmu.store.Settings": [],
+  "Dinmu.utils.Functions": [],
   "Dinmu.view.Main": [],
+  "Dinmu.view.SettingsView": [],
   "Ext.AbstractComponent": [],
   "Ext.AbstractManager": [],
   "Ext.AbstractPlugin": [],
@@ -671,8 +676,15 @@ Ext.ClassManager.addNameAlternateMappings({
 });
 
 Ext.ClassManager.addNameAliasMappings({
+  "Dinmu.controller.Main": [],
+  "Dinmu.model.Setting": [],
+  "Dinmu.store.Settings": [],
+  "Dinmu.utils.Functions": [],
   "Dinmu.view.Main": [
     "widget.main"
+  ],
+  "Dinmu.view.SettingsView": [
+    "widget.settingsview"
   ],
   "Ext.AbstractComponent": [],
   "Ext.AbstractManager": [],
